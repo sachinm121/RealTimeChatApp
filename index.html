@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HAYD chat app</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <section class="chat_section">
+        <div class="logo">
+            <img src="./logo.png" alt="">
+            <h1>HADY</h1>
+        </div>
+        
+        <div class="message_area">
+
+            <!-- <div class="incoming message">
+                markup start
+                <h4>Sachin</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum omnis eveniet, dolorem optio quam magni ex ea pariatur quibusdam est, nesciunt perferendis. Sed culpa numquam corrupti nobis harum pariatur ex?</p>
+                markup end
+            </div>
+            <div class="outgoing message">
+                <h4>Divesh</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum omnis eveniet, dolorem optio quam magni ex ea pariatur quibusdam est, nesciunt perferendis. Sed culpa numquam corrupti nobis harum pariatur ex?</p>
+            </div> -->
+            
+        </div>
+
+        <div>
+            <textarea id="textarea" cols="30" rows="10" placeholder="Type your message....."></textarea>
+        </div>
+    </section>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="./client.js"></script>
+</body>
+</html>
